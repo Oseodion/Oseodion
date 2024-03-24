@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 1em sans-serif;
+
+}
+body{
+    background-image: url(./img/sign\ up\ background\ image.jpeg);
+}
+main{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.899) 0,
+     rgba(21, 19, 19, 0.306) 60%, rgba(0, 0, 0, 0.899) 100%);
+    height: 130vh;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background-color: rgba(0, 0, 0, 0.792);
+    padding: 60px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+}
+form h1{
+    color: white;
+    font-size: 1.8rem;
+}
+p{
+    color: #e87c03;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    
+}
+
+input{
+    width: 25vw;
+    height: 7vh;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    padding: 10px;
+}
+button{
+    color: white;
+    background-color: red;
+    border: none;
+    height: 7vh;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sub-form1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sub-form1 input{
+    width: 1.4vw;
+}
+.sub-form1 span{
+    margin-left: -50px;
+    color: rgb(142, 141, 141);
+}
+.sub-form1 a{
+    color: rgb(142, 141, 141);
+    text-decoration: none;
+}
+.sub-form1 a:hover{
+    text-decoration: underline;
+}
+h2{
+    color: rgb(142, 141, 141);
+}
+h2 a{
+    color: white;
+    text-decoration: none;
+}
+h2 a:hover{
+    text-decoration: underline;
+}
+h3{
+    color: rgb(142, 141, 141);
+    font-size: 0.8rem;
+}
+h3 a{
+    color: #0071eb;
+    text-decoration: none;
+}
+h3 a:hover{
+    text-decoration: underline;
+}
+.footer{
+    display: flex;
+    padding: 10px;
+    height: 30vh;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.627);
+    color: rgb(104, 104, 104);
+    margin-top: 70px;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+@media(max-width:950px){
+    body{ 
+        background-image: none;
+        background-color: black;
+    } 
+    form{
+        width: fit-content;
+    }
+    input{
+        width: 75vw;
+        align-items: center;
+    }
+    .sub-form1 span{
+        margin-left: -15px;
+    }
+    .sub-form1 input{
+        width: auto;
+    }
+
+
+}
+
